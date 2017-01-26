@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{66C03AED-D2FE-4281-8B83-37172EBBBFFB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>StringAdventure</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="BroodMother.h" />
+    <ClInclude Include="Cat.h" />
+    <ClInclude Include="Centaur.h" />
+    <ClInclude Include="ClayGolem.h" />
+    <ClInclude Include="Creatures.h" />
+    <ClInclude Include="Deer.h" />
+    <ClInclude Include="DemonNest.h" />
+    <ClInclude Include="Drake.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Forest.h" />
+    <ClInclude Include="Friendly.h" />
+    <ClInclude Include="GiantGrub.h" />
+    <ClInclude Include="Goblin.h" />
+    <ClInclude Include="Grotto.h" />
+    <ClInclude Include="Imp.h" />
+    <ClInclude Include="Incubus.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="Nymph.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Room.h" />
+    <ClInclude Include="Ruins.h" />
+    <ClInclude Include="Skeleton.h" />
+    <ClInclude Include="Spawn.h" />
+    <ClInclude Include="SpawnCreature.h" />
+    <ClInclude Include="StoneGargoyle.h" />
+    <ClInclude Include="String.h" />
+    <ClInclude Include="Troll.h" />
+    <ClInclude Include="WaterSerpent.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BroodMother.cpp" />
+    <ClCompile Include="Cat.cpp" />
+    <ClCompile Include="Centaur.cpp" />
+    <ClCompile Include="ClayGolem.cpp" />
+    <ClCompile Include="Creatures.cpp" />
+    <ClCompile Include="Deer.cpp" />
+    <ClCompile Include="DemonNest.cpp" />
+    <ClCompile Include="Drake.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Forest.cpp" />
+    <ClCompile Include="Friendly.cpp" />
+    <ClCompile Include="GiantGrub.cpp" />
+    <ClCompile Include="Goblin.cpp" />
+    <ClCompile Include="Grotto.cpp" />
+    <ClCompile Include="Imp.cpp" />
+    <ClCompile Include="Incubus.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="Nymph.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Room.cpp" />
+    <ClCompile Include="Ruins.cpp" />
+    <ClCompile Include="Skeleton.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Spawn.cpp" />
+    <ClCompile Include="SpawnCreature.cpp" />
+    <ClCompile Include="StoneGargoyle.cpp" />
+    <ClCompile Include="String.cpp" />
+    <ClCompile Include="Troll.cpp" />
+    <ClCompile Include="WaterSerpent.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

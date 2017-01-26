@@ -1,0 +1,110 @@
+EqualityTest passed
+AssignmentTest passed
+PlusTest passed
+PlusEqualsTest passed
+SubscriptTest passed
+ResizeTest passed
+LengthTest passed
+CharacterAtTest passed
+EqualToTest passed
+AppendTest passed
+PrependTest passed
+CStrTest passed
+ToLowerTest passed
+ToUpperTest passed
+FindTest passed
+FindIndexTest passed
+ReplaceTest passed
+ReadFromConsoleTest passed
+WriteToConsole passed
+All tests passed
+Test conducted at local date and time: Wed Apr 08 16:33:29 2015
+
+EqualityTest passed
+AssignmentTest passed
+PlusTest passed
+PlusEqualsTest passed
+SubscriptTest passed
+ResizeTest passed
+LengthTest passed
+CharacterAtTest passed
+EqualToTest passed
+AppendTest passed
+PrependTest passed
+CStrTest passed
+ToLowerTest passed
+ToUpperTest passed
+FindTest passed
+FindIndexTest passed
+ReplaceTest passed
+ReadFromConsoleTest passed
+WriteToConsole passed
+Tests not passed: 105%
+Test conducted at local date and time: Wed Apr 08 16:49:41 2015
+
+EqualityTest passed
+AssignmentTest passed
+PlusTest passed
+PlusEqualsTest passed
+SubscriptTest passed
+ResizeTest passed
+LengthTest passed
+CharacterAtTest passed
+EqualToTest passed
+AppendTest passed
+PrependTest passed
+CStrTest passed
+ToLowerTest passed
+ToUpperTest passed
+FindTest passed
+FindIndexTest passed
+ReplaceTest passed
+ReadFromConsoleTest passed
+WriteToConsole passed
+Tests not passed: 105%
+Test conducted at local date and time: Wed Apr 08 16:51:00 2015
+
+EqualityTest passed
+AssignmentTest passed
+PlusTest passed
+PlusEqualsTest passed
+SubscriptTest passed
+ResizeTest passed
+LengthTest passed
+CharacterAtTest passed
+EqualToTest passed
+AppendTest passed
+PrependTest passed
+CStrTest passed
+ToLowerTest passed
+ToUpperTest passed
+FindTest passed
+FindIndexTest passed
+ReplaceTest passed
+ReadFromConsoleTest passed
+WriteToConsole passed
+Tests not passed: 105%
+Test conducted at local date and time: Wed Apr 08 16:51:36 2015
+
+EqualityTest passed
+AssignmentTest passed
+PlusTest passed
+PlusEqualsTest passed
+SubscriptTest passed
+ResizeTest passed
+LengthTest passed
+CharacterAtTest passed
+EqualToTest passed
+AppendTest passed
+PrependTest passed
+CStrTest passed
+ToLowerTest passed
+ToUpperTest passed
+FindTest passed
+FindIndexTest passed
+ReplaceTest passed
+ReadFromConsoleTest failed
+WriteToConsole passed
+Tests not passed: 94%
+Test conducted at local date and time: Wed Apr 08 16:53:03 2015
+
